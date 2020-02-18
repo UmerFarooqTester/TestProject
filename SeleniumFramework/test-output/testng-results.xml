@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9577" started-at="2020-02-07T07:21:47Z" finished-at="2020-02-07T07:21:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9577" started-at="2020-02-07T07:21:47Z" finished-at="2020-02-07T07:21:57Z">
+      <class name="TestNGDemo">
+        <test-method status="PASS" signature="SetupTest()[pri:0, instance:TestNGDemo@39c0f4a]" name="SetupTest" is-config="true" duration-ms="3682" started-at="2020-02-07T07:21:48Z" finished-at="2020-02-07T07:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method status="PASS" signature="GetStartPage()[pri:0, instance:TestNGDemo@39c0f4a]" name="GetStartPage" duration-ms="4115" started-at="2020-02-07T07:21:51Z" finished-at="2020-02-07T07:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStartPage -->
+        <test-method status="PASS" signature="end(org.testng.ITestResult)[pri:0, instance:TestNGDemo@39c0f4a]" name="end" is-config="true" duration-ms="17" started-at="2020-02-07T07:21:55Z" finished-at="2020-02-07T07:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetStartPage status=SUCCESS method=TestNGDemo.GetStartPage()[pri:0, instance:TestNGDemo@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="GetStarted()[pri:0, instance:TestNGDemo@39c0f4a]" name="GetStarted" duration-ms="381" started-at="2020-02-07T07:21:55Z" depends-on-methods="TestNGDemo.GetStartPage" finished-at="2020-02-07T07:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarted -->
+        <test-method status="PASS" signature="end(org.testng.ITestResult)[pri:0, instance:TestNGDemo@39c0f4a]" name="end" is-config="true" duration-ms="1" started-at="2020-02-07T07:21:56Z" finished-at="2020-02-07T07:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetStarted status=SUCCESS method=TestNGDemo.GetStarted()[pri:0, instance:TestNGDemo@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:TestNGDemo@39c0f4a]" name="CloseApp" is-config="true" duration-ms="1324" started-at="2020-02-07T07:21:56Z" finished-at="2020-02-07T07:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- TestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

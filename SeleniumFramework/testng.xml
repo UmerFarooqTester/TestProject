@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="Passmate.test.listener"/>
+	</listeners>
+  <test name="chrometest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Passmate.test.Passmatequestionssubmitflow"/>
+    </classes>
+  </test>
+  <test name="fftest">
+ <parameter name="browser" value="firefox"/>
+   <classes>
+    <class name="Passmate.test.Passmatequestionssubmitflow"/>
+   </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
